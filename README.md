@@ -1,2 +1,2 @@
 # Testing
-IT Academy Teasting Group
+IT Academy Testing Group
