@@ -1,0 +1,12 @@
+http://qa-lab.cloud-pro.ru:8080/browse/CAL-54 Documented. Logarithm function
+http://qa-lab.cloud-pro.ru:8080/browse/CAL-55 Documented. Calculations with numbers entered from the keyboard
+http://qa-lab.cloud-pro.ru:8080/browse/CAL-56 Documented. Using calculation keys on keyboard
+http://qa-lab.cloud-pro.ru:8080/browse/CAL-57 Documented. Entering numbers from the keyboard
+http://qa-lab.cloud-pro.ru:8080/browse/CAL-58 Calculations only with 9 signs numbers
+http://qa-lab.cloud-pro.ru:8080/browse/CAL-59 Spelling mistakes in calculation with square root Error message
+http://qa-lab.cloud-pro.ru:8080/browse/CAL-60 Spelling mistakes in calculation with divided into 0 Error message
+http://qa-lab.cloud-pro.ru:8080/browse/CAL-61 Wrong decision when the sign of 0 (null) is “-”
+http://qa-lab.cloud-pro.ru:8080/browse/CAL-62 Function of cleaning the application screen (reset function) after calculations errors
+http://qa-lab.cloud-pro.ru:8080/browse/CAL-63 Wrong calculation when working with clipboard
+http://qa-lab.cloud-pro.ru:8080/browse/CAL-64 Wrong calculation for exponentiation
+http://qa-lab.cloud-pro.ru:8080/browse/CAL-66 Wrong calculation for multiplied by zero
