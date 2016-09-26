@@ -11,12 +11,15 @@ echo 'Please choose an option'
 select input in "${options[@]}"; do
 	case "$input" in
 		"${options[0]}")
+#Опция 1. Выводит список файлов и папок.
 			ls
 			;;
 		"${options[1]}")
+#Опция 2. Выводит текущую дату.
 			date $'+Time: %T\nDate: %D'
 			;;
 		"${options[2]}")
+#Опция 3. Проверяет чем является элемент, файлом или папкой.
 			read -p 'What file do you wish to check? ' finput
 			if [[ -d $finput ]]; then
 				format='%s is a directory.\n'
@@ -28,13 +31,16 @@ select input in "${options[@]}"; do
 			printf "$format" "$finput"
 			;;
 		"${options[3]}")
+#Опция 4. Делает бэкап файла с расширением .bak
 			read -p 'Please enter filename: ' binput
 			cp "$binput"{,.bak}
 			;;
 		"${options[4]}")
+#Опция 5. Ничего не делает. Вызывает обрыв.
 			break
 			;;
 		*)
+#На все остальные запросы, кроме 1-5, выводит Not a valid option
 			echo 'Not a valid option.'
 			;;
 	esac
